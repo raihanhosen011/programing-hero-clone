@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css?family=Hind+Siliguri");
+
+.button {
+  padding: 10px 17px !important;
+  background: linear-gradient(
+    335.64deg,
+    #ff589b -19.22%,
+    #ff136f 118.87%
+  ) !important;
+  border-radius: 20px;
+  display: inline-flex;
+  margin-left: 3px;
+}
+.button_icon {
+  top: 4px;
+  right: 4px;
+  padding: 5px;
+  background: white;
+  color: #ff277c;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.hero {
+  background: linear-gradient(107.07deg, #684efb -6.64%, #5a00dd 89.11%);
+  position: relative;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.hero h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+.bangla {
+  font-family: "Hind Siliguri", sans-serif !important;
+  font-size: 18px;
+}
+.cerousel__image {
+  width: 100%;
+  height: 100%;
+  object-fit: inherit;
+  top: 0px;
+  left: 0px;
+  opacity: 1;
+  transition: filterBrightness 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    filterSaturate 3000ms cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    opacity 1500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+.carosel__image_wrapper {
+  position: relative;
+}
+.notice__wrapper {
+  max-width: 870px !important;
+  box-shadow: 0 15px 20px 0 rgb(55 84 170 / 10%);
+  border-radius: 20px;
+}
+section.notice {
+  transform: translatey(-50px);
+}
+.notice__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  line-height: 58px;
+  color: #000;
+  line-height: 37px;
+}
+.option__btn {
+  height: 52px;
+  width: 52px;
+  background: linear-gradient(
+    335.64deg,
+    #ff589b -19.22%,
+    #ff136f 118.87%
+  ) !important;
+  color: #fff;
+  font-size: 36px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+}
+.countdown_option h3 {
+  margin-bottom: 0px;
+}
+.blue__gd {
+  background: linear-gradient(-45deg, #5a00dd, #684efb) !important ;
+}
+.orange__gd {
+  background: linear-gradient(-45deg, #fc5e51, #f59e75) !important ;
+}
+.yellow__gd {
+  background: linear-gradient(-45deg, #ff9c35, #ffd019) !important ;
+}
+.pink__gd {
+  background: linear-gradient(-45deg, #ff193f, #ff35b4) !important ;
+}
+.shedule {
+  border-radius: 7px;
+  padding: 2px 4px;
+}
+
+@media (max-width: 777px) {
+  .notice h5,
+  h2 {
+    font-size: 14px !important;
+  }
+  .course__info__header h4{
+    font-size: 14px !important;
+  }
+}
+.criterias {
+  font-family: "Hind Siliguri", sans-serif !important;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000;
+}
+.criterias__row li {
+  list-style: none;
+  display: flex;
+  margin-bottom: 25px;
+}
+.criterias__row svg {
+  background: linear-gradient(75deg, #fc5e51, #f59e75);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 8px;
+  color: tomato;
+  width: 83px;
+  align-self: start;
+}
+.criterias__row span,.criterias__row > p {
+  font-size: 17px;
+  font-weight: 550;
+}
+.course__info__header {
+  width: 100%;
+  max-width: 415px;
+  transition: .3s;
+}
+.befor::before {
+  content: '';
+  height: 7px;
+  width: 8rem;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 8%;
+  transition: .3s;
+  border-radius: 8px;
+}
+.info__header__go::before{
+  right: -41%;
+}
+.act_col::before{
+  background: #ff136f;
+}
+.pink{
+  color:#ff136f;
+}
+.gocard__numb h1{
+  font-size: 6rem;
+  color: rgb(187, 187, 187);
+}
+.playbtn{
+  width: 98px;
+  position: absolute;
+  top: 30%;
+  z-index: 1000;
+  left: 35%;
+  cursor: pointer;
+}
+.course__content__scroll{
+  max-height: 412px;
+  overflow-y: scroll;
+}
+.course__content__scroll::-webkit-scrollbar{
+  width: 12px;
+  border-radius: 5px;
+  background: #F6F6F6;
+}
+.course__content__scroll::-webkit-scrollbar-thumb{
+  width: 100%;
+  border-radius: 5px;
+  background: #E8E6E9;
+}
+
+.card__btns .button {
+  padding: 3px 8px !important;
+color: white !important;
+}
+.swiper-pagination {
+  transform: translateY(14px)
+}
+.swiper-container {
+  padding: 48px 0px !important;
+}
+.projects__card {
+  border: none !important;
+}
+
+.feedback__student_image{
+  width: 95px;
+  height: 95px;
+  overflow:hidden;
+  border-radius: 50%;
+  border: 8px solid white;
+  margin: auto;
+  transform: translateY(-50px);
+}
+
+.feedback__student_image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
