@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Programing Hero websit clone
+
+<img src='https://github.com/raihanhosen011/programing-hero-clone/blob/main/programing%20hero.png?raw=true' alt='programing hero mockup' />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
